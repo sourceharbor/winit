@@ -25,7 +25,7 @@ jobs:
           egress-policy: audit
       - uses: actions/checkout@v6
 
-      - uses: dtolnay/rust-toolchain@master
+      - uses: step-security/dtolnay-rust-toolchain@8dd607977d06adf4ed49b190381e74c17a9dd25f # v1.0.0
         with:
           toolchain: nightly
 
